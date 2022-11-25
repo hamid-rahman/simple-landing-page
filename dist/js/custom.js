@@ -1,0 +1,2 @@
+// aos initiliazed
+AOS.init();

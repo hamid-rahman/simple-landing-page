@@ -1,0 +1,294 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2 , h3, h4, h5,h6,p,a{
+    font-family: 'Nunito Sans', sans-serif, Arial, Verdana, 'Trebuchet MS';
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none; 
+}
+/* header part */
+#header{
+    background: #fff;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #eeeeee;
+    box-shadow: 0 0 5px rgb(0 0 0 / 100%) !important;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    float: left;
+    line-height: 80px;
+}
+nav ul li a{
+   padding: 0 10px;
+   color: #212529;
+}
+/* header part */
+
+/* banner */
+#banner{
+    background: url('../images/static-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.inner-banner{
+    text-align: center;
+    padding-top: 150px;
+}
+.inner-banner h1{
+    color: #f2f2f2;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.inner-banner p{
+    color: #f3f3f3;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin: 0 auto 30px;
+    width: 50%;
+}
+.inner-banner a{
+    background-color: #037E8C;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+.inner-banner a:hover{
+    background-color: #ffffff;
+    color: #037E8C;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+/* banner */
+
+/* common-heading */
+.common-heading h2{
+    color: #212529;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+.common-heading{
+    text-align: center;
+    padding: 50px 0;
+}
+/* common-heading */
+
+/* about us */
+.about-content-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 80%;
+}
+.about-right{
+    padding: 40px;
+}
+.about-left{
+    padding: 30px;
+    margin-left: 100px;
+}
+.about-btn {
+    margin-top: 50px;
+}
+.about-right a{
+    background-color: #037E8C;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.about-right a:hover{
+    background-color: #ffffff;
+    color: #037E8C;
+    border: 1px solid #037E8C;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+
+/* about us */
+
+/* service part */
+#services{
+    background: #F7F7F7;
+    padding-bottom: 50px;
+}
+.service-card{
+    padding: 40px 30px;
+    width: 30%;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 20px;
+
+}
+.main-service{
+  display: flex;
+}
+.main-service-second{
+    margin-top: 40px;
+}
+/* service part */
+
+/* unknows  */
+#unknown{
+    margin: 70px 0;
+    padding: 70px 0;
+}
+.unknown-btn {
+    margin-top: 20px;
+}
+#unknown-second, #unknown-section-second{
+    margin: 70px 0;
+    padding: 70px 0;
+    background: #F7F7F7;
+}
+#registraton{
+    margin: 70px 0;
+}
+#second-service-card{
+    margin: 70px 0;
+    background: #F7F7F7;
+}
+/* unknows  */
+
+
+/* unknows second  */
+.about-right-inner{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 30px;
+}
+.about-right-inner h3{
+    margin: 30px -30px;
+}
+/* unknows second  */
+
+/* third-card */
+.third-main{
+    position: relative;
+
+}
+.third-card-text{
+    position: absolute;
+    top: 67%;
+    left: 50px;
+}
+.third-card-text{
+    width: 300px;
+    text-align: center;
+}
+
+.third-contain-main{
+    display: flex;
+    margin: auto;
+    margin-left: 120px;
+}
+.third-card{
+    margin-left: 15px;
+}
+/* third-card */
+
+/* registraton */
+#registraton{
+    background: url('../images/1920x700x1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+/* registraton */
+
+/* second service card */
+
+.second-service-card-content{
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid #eeeeee;
+    width: 20%;
+    transition: all linear .3s;
+
+}
+.second-service-card-content:hover{
+    border: 1px solid #037E8C;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+.second-service-card-content img{
+    margin: 0 0 25px 0;
+}
+.second-service-card-content h4{
+    color: #212529;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.second-service-card-content p{
+    margin-top: 15px;
+    color: #898989;
+    font-family: 'Nunito Sans', sans-serif, Arial, Verdana, 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.second-service-card-content a{
+    color: #037E8C;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+}
+.second-service-card-main{
+    display: flex;
+    padding: 100px 0;
+}
+.second-service-card-content{
+    margin-left: 58px;
+}
+/* second service card */
+
+/* footer */
+.copyright{
+    height: 100px;
+    border-top: 1px solid #eeeeee;
+}
+.copyright p{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer */
